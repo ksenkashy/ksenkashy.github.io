@@ -1,0 +1,21 @@
+h2 {
+  text-align: left;
+}
+/* Ко всей таблице*/
+table {
+  text-align: left;
+}
+
+/* Все ячейки таблицы, включая заголовок*/
+td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Заголовок таблицы*/
+th {
+  font-weight: bold;
+  background: #eee;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
