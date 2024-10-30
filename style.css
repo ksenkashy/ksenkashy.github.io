@@ -4,10 +4,13 @@ h2 {
 /* Ко всей таблице*/
 table {
   text-align: left;
+  border-collapse: collapse;
+  table-layout: fixed;
 }
 
 /* Все ячейки таблицы, включая заголовок*/
-td {
+td,
+th {
   padding: 8px;
   border: 1px solid #ccc;
 }
@@ -16,6 +19,8 @@ td {
 th {
   font-weight: bold;
   background: #eee;
-  padding: 8px;
-  border: 1px solid #ccc;
+}
+
+tr:nth-child(2n) {
+  background: rgba(238, 238, 238, 0.5);
 }
